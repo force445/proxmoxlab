@@ -34,4 +34,4 @@ After download ISO file create new vm by doing these steps
 
 -Browse to select the ISO file you just downloaded, and select Debian 11,12 in the operating system list.
 It won’t find it automatically.
-![Alt text](~/Downloads/proxmox-create-vm-iso.jpg)
+![Alt text]
