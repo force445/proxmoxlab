@@ -34,4 +34,18 @@ After download ISO file create new vm by doing these steps
 
 -Browse to select the ISO file you just downloaded, and select Debian 11,12 in the operating system list.
 It won’t find it automatically.
-![Alt text](https://github.com/force445/proxmoxlab/blob/main/proxmox-create-vm-iso.jpg)
+![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-create-vm-iso.jpg)
+
+Adjust the memory and CPU settings.
+Proxmox requires 2 GB for the main system. Then add as much memory as your additional virtual machines will need.
+For example, if you’ll create a virtual machine with 8 GB, you need to create your VM with at least 10 GB.
+Same thing for the CPU, 1 is enough for Proxmox, add more depending on your virtual machines requirements.
+
+Create a disk image for the virtual machine (the default 20 GB is fine for Proxmox).
+I recommend adding new disks for your VM, instead of keeping everything on the same one.
+
+Name the virtual machine to complete the wizard.
+
+You can now start the virtual machine, and continue the installation like you were doing this directly on your disk.
+The following boot menu will show up:
+![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-boot-menu.jpg)
