@@ -54,3 +54,7 @@ Select “Install Proxmox VE” and follow the wizard to complete the installati
 After a few minutes, a success message appears, giving you the web interface URL.
 One last reboot is required, so wait a few seconds before trying to access this URL.
 ![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-installed.jpg)
+
+Now you can access the proxmox with its ip through the web browser by use its ip
+the username would be root and password is your password
+![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-running.jpg)
