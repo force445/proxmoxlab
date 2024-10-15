@@ -49,3 +49,8 @@ Name the virtual machine to complete the wizard.
 You can now start the virtual machine, and continue the installation like you were doing this directly on your disk.
 The following boot menu will show up:
 ![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-boot-menu.jpg)
+Select “Install Proxmox VE” and follow the wizard to complete the installation. It will ask you to create an account, make sure to remember it as you’ll need it to access the web interface.
+![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-install.jpg)
+After a few minutes, a success message appears, giving you the web interface URL.
+One last reboot is required, so wait a few seconds before trying to access this URL.
+![Alt text](https://github.com/force445/proxmoxlab/blob/main/images/proxmox-installed.jpg)
